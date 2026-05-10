@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="UiMixerView" id="{ed91f760-c99f-4805-a159-76e29f4ef04d}">
+		<property name="name">
+			<value>Main Buses</value>
+		</property>
+		<relationship name="assignedStrips">
+			<destination>{9489498e-31cb-46a2-bb53-19cdb96f13e6}</destination>
+			<destination>{98132424-ea6f-4c63-9da0-963319cfcb74}</destination>
+			<destination>{2962bf2a-0b70-4e8d-91d4-1d06e94cb8d1}</destination>
+			<destination>{cd1448d5-fb1f-4969-9d4e-9072e2f68247}</destination>
+			<destination>{a0bd7bbd-3a85-4824-8630-0a8acb5cf53a}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{5ed81514-aada-471d-ab88-a99da70f08f4}</destination>
+		</relationship>
+	</object>
+</objects>

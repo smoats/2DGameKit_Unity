@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="SnapshotGroup" id="{d3c93736-20c4-49e3-b4a2-1699e500fc5b}">
+		<property name="name">
+			<value>TestSpace</value>
+		</property>
+		<relationship name="items">
+			<destination>{b98e8848-b5e7-4a2a-a705-1f0bea44bc41}</destination>
+			<destination>{9caff8c8-cc5a-489e-aa0d-5ac5d426bb1a}</destination>
+		</relationship>
+	</object>
+</objects>

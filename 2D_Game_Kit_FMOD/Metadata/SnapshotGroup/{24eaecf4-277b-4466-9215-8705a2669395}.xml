@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="SnapshotGroup" id="{24eaecf4-277b-4466-9215-8705a2669395}">
+		<property name="color">
+			<value>Red</value>
+		</property>
+		<property name="name">
+			<value>ThreatLevel</value>
+		</property>
+		<relationship name="items">
+			<destination>{81a0752d-b670-4843-b741-3862135374de}</destination>
+		</relationship>
+	</object>
+</objects>

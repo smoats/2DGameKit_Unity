@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EffectPreset" id="{4f1fa822-a7b6-4e31-b164-8eeabb347c2d}">
+		<property name="name">
+			<value>PlayerSpatializer</value>
+		</property>
+		<relationship name="folder">
+			<destination>{454e7f85-e5a2-4c14-b9fc-4a742c0395ab}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{231c6658-2028-4515-beb2-6d48b55f8087}</destination>
+		</relationship>
+	</object>
+	<object class="SpatialiserEffect" id="{231c6658-2028-4515-beb2-6d48b55f8087}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>4.80000019</value>
+		</property>
+		<property name="minimumExtent">
+			<value>186</value>
+		</property>
+	</object>
+</objects>

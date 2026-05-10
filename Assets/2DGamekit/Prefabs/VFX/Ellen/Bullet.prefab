@@ -384,7 +384,7 @@ MonoBehaviour:
       Data2: 1206760850
       Data3: -2086097270
       Data4: 400385543
-    Path: event:/SFX/ENVIRONMENT/Projectile/Player/sfx_env_plr_pistol_projectile
+    Path: event:/SFX/ENVIRONMENT/Projectiles/Player/sfx_env_plr_pistol_projectile
   Event: 
   EventPlayTrigger: 11
   EventStopTrigger: 12

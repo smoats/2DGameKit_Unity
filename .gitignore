@@ -51,8 +51,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-# /Assets/2DGameKit/Art/*
-
 
 # FMOD
 # Never ignore DLLs in the FMOD subfolder.
@@ -76,3 +74,12 @@ crashlytics-build.properties
 # Log files can be ignored.
 
 fmod_editor.log
+
+
+# FMOD Project
+
+/2D_Game_Kit_FMOD/.cache
+/2D_Game_Kit_FMOD/.unsaved
+/2D_Game_Kit_FMOD/.user
+/2D_Game_Kit_FMOD/.vs
+/2D_Game_Kit_FMOD/*.bank

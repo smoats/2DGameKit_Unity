@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="SnapshotGroup" id="{697b2e8c-6f2a-4689-8e55-4b11763b9cb3}">
+		<property name="name">
+			<value>Zone03</value>
+		</property>
+		<relationship name="items">
+			<destination>{819babc5-8b56-4137-9c14-6070c0f27302}</destination>
+		</relationship>
+	</object>
+</objects>

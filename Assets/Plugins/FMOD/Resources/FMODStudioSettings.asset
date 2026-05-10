@@ -463,8 +463,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../2DGameKit_FMOD_MC/2D_Game_Kit_FMOD.fspro
-  sourceBankPath: ../2DGameKit_FMOD_MC/Build
+  sourceProjectPath: 2D_Game_Kit_FMOD/2D_Game_Kit_FMOD.fspro
+  sourceBankPath: 2D_Game_Kit_FMOD/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 1
   ShowBankRefreshWindow: 0

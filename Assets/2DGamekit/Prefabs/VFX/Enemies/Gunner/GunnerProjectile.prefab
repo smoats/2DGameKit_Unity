@@ -5316,7 +5316,7 @@ MonoBehaviour:
       Data2: 1074349758
       Data3: -21012805
       Data4: 520634733
-    Path: event:/SFX/ENVIRONMENT/Projectile/Enemies/Gunner/sfx_env_enm_gunner_projectile_lp
+    Path: event:/SFX/ENVIRONMENT/Projectiles/Enemies/Gunner/sfx_env_enm_gunner_projectile_lp
   Event: 
   EventPlayTrigger: 11
   EventStopTrigger: 12
@@ -5379,7 +5379,7 @@ MonoBehaviour:
       Data2: 1112888057
       Data3: 1837291651
       Data4: 477896430
-    Path: event:/SFX/ENVIRONMENT/Projectile/Enemies/Gunner/sfx_env_enm_gunner_projectile_hit
+    Path: event:/SFX/ENVIRONMENT/Projectiles/Enemies/Gunner/sfx_env_enm_gunner_projectile_hit
   Event: 
   EventPlayTrigger: 11
   EventStopTrigger: 0

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EffectPreset" id="{e30c91cd-068c-4d98-8bdb-02fd37ce280f}">
+		<property name="name">
+			<value>TestSpatializer</value>
+		</property>
+		<relationship name="folder">
+			<destination>{454e7f85-e5a2-4c14-b9fc-4a742c0395ab}</destination>
+		</relationship>
+		<relationship name="effect">
+			<destination>{b024366f-eb07-4d40-b7db-7e55e558b4fd}</destination>
+		</relationship>
+	</object>
+	<object class="EffectChain" id="{b024366f-eb07-4d40-b7db-7e55e558b4fd}" />
+</objects>

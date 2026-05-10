@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="SnapshotGroup" id="{c448a145-c9d6-414b-9dd0-6a7b9f1bee40}">
+		<property name="color">
+			<value>Blue Light 1</value>
+		</property>
+		<property name="name">
+			<value>Reverbs</value>
+		</property>
+		<relationship name="items">
+			<destination>{146c76c3-dd2c-465e-b6f5-f029d15406b9}</destination>
+			<destination>{b08b1fe1-15b9-4be2-a322-274558e5ce48}</destination>
+			<destination>{984836c8-72e8-4516-a99e-763f5b2748cf}</destination>
+			<destination>{bfdcef75-71c0-4be6-bb4a-8357825ef943}</destination>
+			<destination>{8603f3da-bd70-4566-912a-168fd135dd1f}</destination>
+			<destination>{5102c3ec-4da1-473b-bec5-1dae760472a7}</destination>
+			<destination>{09599331-faa2-4cf3-ac6d-13022549fa54}</destination>
+		</relationship>
+	</object>
+</objects>

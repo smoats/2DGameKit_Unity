@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EffectPresetFolder" id="{454e7f85-e5a2-4c14-b9fc-4a742c0395ab}">
+		<property name="name">
+			<value>Spatializers</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6fa3c14d-2bae-432d-be0a-00e23ed722b4}</destination>
+		</relationship>
+	</object>
+</objects>

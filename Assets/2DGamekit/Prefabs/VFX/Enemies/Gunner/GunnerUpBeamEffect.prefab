@@ -24462,7 +24462,7 @@ MonoBehaviour:
       Data2: 1277597737
       Data3: 350427053
       Data4: 1094893123
-    Path: event:/SFX/ENVIRONMENT/Projectile/Enemies/Gunner/sfx_env_enm_gunner_grenade_upBeam
+    Path: event:/SFX/ENVIRONMENT/Projectiles/Enemies/Gunner/sfx_env_enm_gunner_grenade_upBeam
   Event: 
   EventPlayTrigger: 11
   EventStopTrigger: 0

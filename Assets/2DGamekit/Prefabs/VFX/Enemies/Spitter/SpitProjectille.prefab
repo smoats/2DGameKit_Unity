@@ -5088,7 +5088,7 @@ MonoBehaviour:
       Data2: 1194428690
       Data3: -874223467
       Data4: -423870173
-    Path: event:/SFX/ENVIRONMENT/Projectile/Enemies/Spitter/sfx_env_enm_spitter_projectile_lp
+    Path: event:/SFX/ENVIRONMENT/Projectiles/Enemies/Spitter/sfx_env_enm_spitter_projectile_lp
   Event: 
   EventPlayTrigger: 11
   EventStopTrigger: 12
@@ -5119,7 +5119,7 @@ MonoBehaviour:
       Data2: 1333474414
       Data3: 1529983391
       Data4: 1348553531
-    Path: event:/SFX/ENVIRONMENT/Impact/Enemies/Spitter/sfx_env_enm_spitter_splash
+    Path: event:/SFX/ENVIRONMENT/Impacts/Enemies/Spitter/sfx_env_enm_spitter_splash
   Event: 
   EventPlayTrigger: 7
   EventStopTrigger: 0

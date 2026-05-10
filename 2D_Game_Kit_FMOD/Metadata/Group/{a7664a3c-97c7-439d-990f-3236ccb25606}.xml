@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{a7664a3c-97c7-439d-990f-3236ccb25606}">
+		<property name="name">
+			<value>Vox_plr</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{8fdb5eb9-fd9a-4a15-8098-d08c61a415b0}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{7bb4c6f3-85b1-4b30-b232-ed4c17a77c26}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{a0bd7bbd-3a85-4824-8630-0a8acb5cf53a}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{8fdb5eb9-fd9a-4a15-8098-d08c61a415b0}">
+		<relationship name="effects">
+			<destination>{b53ed45d-b5a1-4f3f-a78f-5371cbedb0f3}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{7bb4c6f3-85b1-4b30-b232-ed4c17a77c26}" />
+	<object class="MixerBusFader" id="{b53ed45d-b5a1-4f3f-a78f-5371cbedb0f3}" />
+</objects>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="SnapshotGroup" id="{15fc63fd-abba-47a2-9e26-fa81294fefd1}">
+		<property name="name">
+			<value>GameStates</value>
+		</property>
+		<relationship name="items">
+			<destination>{0b15db56-9774-40f4-888f-919adfeddea3}</destination>
+			<destination>{6d981a94-0d6c-48c5-bcb0-d9410044d851}</destination>
+			<destination>{198661c1-e7cb-4673-ad60-8662e458170f}</destination>
+		</relationship>
+	</object>
+</objects>

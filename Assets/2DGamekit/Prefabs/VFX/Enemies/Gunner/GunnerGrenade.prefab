@@ -187,7 +187,7 @@ MonoBehaviour:
       Data2: 1120219043
       Data3: -2124467013
       Data4: 211674601
-    Path: event:/SFX/ENVIRONMENT/Projectile/Enemies/Gunner/sfx_env_enm_gunner_grenade_bounce
+    Path: event:/SFX/ENVIRONMENT/Projectiles/Enemies/Gunner/sfx_env_enm_gunner_grenade_bounce
   Event: 
   EventPlayTrigger: 9
   EventStopTrigger: 0
