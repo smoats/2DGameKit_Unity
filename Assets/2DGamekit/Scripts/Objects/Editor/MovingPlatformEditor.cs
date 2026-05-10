@@ -17,6 +17,7 @@ namespace Gamekit2D
         private SerializedProperty m_PlatformSpeedProperty;
         private SerializedProperty m_PlatformNodesProperty;
         private SerializedProperty m_PlatformWaitTimeProperty;
+        private SerializedProperty m_MovingPlatformEventProperty;
 
         float m_PreviewPosition = 0;
 
@@ -35,6 +36,8 @@ namespace Gamekit2D
             m_PlatformSpeedProperty = serializedObject.FindProperty(nameof(m_MovingPlatform.speed));
             m_PlatformNodesProperty = serializedObject.FindProperty(nameof(m_MovingPlatform.localNodes));
             m_PlatformWaitTimeProperty = serializedObject.FindProperty(nameof(m_MovingPlatform.waitTimes));
+            m_MovingPlatformEventProperty = serializedObject.FindProperty(nameof(m_MovingPlatform.movingPlatformEvent));
+
         }
 
         private void OnDisable()
@@ -44,6 +47,8 @@ namespace Gamekit2D
 
         public override void OnInspectorGUI()
         {
+            EditorGUILayout.PropertyField(m_MovingPlatformEventProperty);
+
             serializedObject.Update();
 
             EditorGUILayout.PropertyField(m_PlatformCatcherProperty);

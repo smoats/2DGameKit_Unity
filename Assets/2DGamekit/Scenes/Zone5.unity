@@ -2488,12 +2488,17 @@ PrefabInstance:
     - target: {fileID: -5926198100906435946, guid: 9110199ae62c01f42bb440a3b1e2d769,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5926198100906435946, guid: 9110199ae62c01f42bb440a3b1e2d769,
+        type: 3}
+      propertyPath: EventStopTrigger
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -5926198100906435946, guid: 9110199ae62c01f42bb440a3b1e2d769,
         type: 3}
       propertyPath: EventReference.Path
-      value: event:/_Utilities/Test Events/test_empty_action
+      value: event:/MUSIC/MainMenu_Zone1/msc_mmenu_zone01_02_03_stop
       objectReference: {fileID: 0}
     - target: {fileID: -5926198100906435946, guid: 9110199ae62c01f42bb440a3b1e2d769,
         type: 3}
@@ -2508,22 +2513,22 @@ PrefabInstance:
     - target: {fileID: -5926198100906435946, guid: 9110199ae62c01f42bb440a3b1e2d769,
         type: 3}
       propertyPath: EventReference.Guid.Data1
-      value: -751622519
+      value: 549131707
       objectReference: {fileID: 0}
     - target: {fileID: -5926198100906435946, guid: 9110199ae62c01f42bb440a3b1e2d769,
         type: 3}
       propertyPath: EventReference.Guid.Data2
-      value: 1309741784
+      value: 1235060252
       objectReference: {fileID: 0}
     - target: {fileID: -5926198100906435946, guid: 9110199ae62c01f42bb440a3b1e2d769,
         type: 3}
       propertyPath: EventReference.Guid.Data3
-      value: 1705871511
+      value: 1272971694
       objectReference: {fileID: 0}
     - target: {fileID: -5926198100906435946, guid: 9110199ae62c01f42bb440a3b1e2d769,
         type: 3}
       propertyPath: EventReference.Guid.Data4
-      value: 1355061229
+      value: 1991362658
       objectReference: {fileID: 0}
     - target: {fileID: 2271497964563696714, guid: 9110199ae62c01f42bb440a3b1e2d769,
         type: 3}
@@ -2945,7 +2950,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1826158327}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1826158329}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c546c8b7ab72c7b4499299ec3ff45d17, type: 3}
@@ -45262,7 +45267,8 @@ PrefabInstance:
       propertyPath: OnTakeDamage.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2658982500857288556, guid: 4ba44c764bf20fc4c88a7a42dca61256, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4750858373862004, guid: 4ba44c764bf20fc4c88a7a42dca61256,
@@ -49042,7 +49048,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1716219479}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1716219481}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c546c8b7ab72c7b4499299ec3ff45d17, type: 3}
@@ -51130,6 +51136,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
         type: 3}
+      propertyPath: platformCatcher
+      value: 
+      objectReference: {fileID: 1716219480}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Path
+      value: event:/SFX/ENVIRONMENT/Interactables/Platform/sfx_env_platform_moving_lp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
       propertyPath: localNodes.Array.data[1].x
       value: 10.540284
       objectReference: {fileID: 0}
@@ -51137,6 +51153,26 @@ PrefabInstance:
         type: 3}
       propertyPath: localNodes.Array.data[1].y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data1
+      value: 128310202
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data2
+      value: 1143107990
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data3
+      value: 345474964
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data4
+      value: -797658841
       objectReference: {fileID: 0}
     - target: {fileID: 212062337697364760, guid: f9663778c0da693408f8cf4c13bc051a,
         type: 3}
@@ -51156,7 +51192,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300002, guid: 2da3192b993471540944ac96226c9333,
         type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6349959517948613633, guid: f9663778c0da693408f8cf4c13bc051a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4575080517692320, guid: f9663778c0da693408f8cf4c13bc051a,
@@ -51175,8 +51212,61 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1512730975}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1524626685390748, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1716219482}
   m_SourcePrefab: {fileID: 100100000, guid: f9663778c0da693408f8cf4c13bc051a, type: 3}
+--- !u!114 &1716219480 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114206927793940296, guid: f9663778c0da693408f8cf4c13bc051a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1716219479}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716219481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff44b8ffcc6c954196bfdcf3eaff9df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1716219481 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1524626685390748, guid: f9663778c0da693408f8cf4c13bc051a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1716219479}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1716219482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716219481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 128310202
+      Data2: 1143107990
+      Data3: 345474964
+      Data4: -797658841
+    Path: event:/SFX/ENVIRONMENT/Interactables/Platform/sfx_env_platform_moving_lp
+  Event: 
+  EventPlayTrigger: 11
+  EventStopTrigger: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1736815646
 GameObject:
   m_ObjectHideFlags: 0
@@ -51420,6 +51510,119 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1759999332
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1738011616019252592, guid: 878f136685973fd429a1e9f9039f56c8,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 144.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1738011616019252592, guid: 878f136685973fd429a1e9f9039f56c8,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 21.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 1870377314928846405, guid: 878f136685973fd429a1e9f9039f56c8,
+        type: 3}
+      propertyPath: EventReference.Path
+      value: snapshot:/Reverbs/Zone05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1870377314928846405, guid: 878f136685973fd429a1e9f9039f56c8,
+        type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1870377314928846405, guid: 878f136685973fd429a1e9f9039f56c8,
+        type: 3}
+      propertyPath: OverrideMinDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1870377314928846405, guid: 878f136685973fd429a1e9f9039f56c8,
+        type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: 342652611
+      objectReference: {fileID: 0}
+    - target: {fileID: 1870377314928846405, guid: 878f136685973fd429a1e9f9039f56c8,
+        type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1180622124
+      objectReference: {fileID: 0}
+    - target: {fileID: 1870377314928846405, guid: 878f136685973fd429a1e9f9039f56c8,
+        type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: 703657398
+      objectReference: {fileID: 0}
+    - target: {fileID: 1870377314928846405, guid: 878f136685973fd429a1e9f9039f56c8,
+        type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: -1190767407
+      objectReference: {fileID: 0}
+    - target: {fileID: 3181787538810295595, guid: 878f136685973fd429a1e9f9039f56c8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 23.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3181787538810295595, guid: 878f136685973fd429a1e9f9039f56c8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 3181787538810295595, guid: 878f136685973fd429a1e9f9039f56c8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3181787538810295595, guid: 878f136685973fd429a1e9f9039f56c8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3181787538810295595, guid: 878f136685973fd429a1e9f9039f56c8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3181787538810295595, guid: 878f136685973fd429a1e9f9039f56c8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3181787538810295595, guid: 878f136685973fd429a1e9f9039f56c8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3181787538810295595, guid: 878f136685973fd429a1e9f9039f56c8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3181787538810295595, guid: 878f136685973fd429a1e9f9039f56c8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3181787538810295595, guid: 878f136685973fd429a1e9f9039f56c8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8921964283461771253, guid: 878f136685973fd429a1e9f9039f56c8,
+        type: 3}
+      propertyPath: m_Name
+      value: FMODReverbCollider (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 878f136685973fd429a1e9f9039f56c8, type: 3}
 --- !u!1 &1764488592
 GameObject:
   m_ObjectHideFlags: 0
@@ -52180,6 +52383,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
         type: 3}
+      propertyPath: platformCatcher
+      value: 
+      objectReference: {fileID: 1819979178}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Path
+      value: event:/SFX/ENVIRONMENT/Interactables/Platform/sfx_env_platform_moving_lp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
       propertyPath: localNodes.Array.data[1].x
       value: 14.045254
       objectReference: {fileID: 0}
@@ -52187,6 +52400,26 @@ PrefabInstance:
         type: 3}
       propertyPath: localNodes.Array.data[1].y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data1
+      value: 128310202
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data2
+      value: 1143107990
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data3
+      value: 345474964
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data4
+      value: -797658841
       objectReference: {fileID: 0}
     - target: {fileID: 212062337697364760, guid: f9663778c0da693408f8cf4c13bc051a,
         type: 3}
@@ -52211,11 +52444,65 @@ PrefabInstance:
       propertyPath: m_SurfaceArc
       value: 170
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6349959517948613633, guid: f9663778c0da693408f8cf4c13bc051a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1524626685390748, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1819979180}
   m_SourcePrefab: {fileID: 100100000, guid: f9663778c0da693408f8cf4c13bc051a, type: 3}
+--- !u!114 &1819979178 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114206927793940296, guid: f9663778c0da693408f8cf4c13bc051a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1819979177}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819979179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff44b8ffcc6c954196bfdcf3eaff9df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1819979179 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1524626685390748, guid: f9663778c0da693408f8cf4c13bc051a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1819979177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1819979180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819979179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 128310202
+      Data2: 1143107990
+      Data3: 345474964
+      Data4: -797658841
+    Path: event:/SFX/ENVIRONMENT/Interactables/Platform/sfx_env_platform_moving_lp
+  Event: 
+  EventPlayTrigger: 11
+  EventStopTrigger: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1826158327
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52293,6 +52580,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
         type: 3}
+      propertyPath: platformCatcher
+      value: 
+      objectReference: {fileID: 1826158328}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Path
+      value: event:/SFX/ENVIRONMENT/Interactables/Platform/sfx_env_platform_moving_lp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
       propertyPath: localNodes.Array.data[1].x
       value: 13.038454
       objectReference: {fileID: 0}
@@ -52300,6 +52597,26 @@ PrefabInstance:
         type: 3}
       propertyPath: localNodes.Array.data[1].y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data1
+      value: 128310202
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data2
+      value: 1143107990
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data3
+      value: 345474964
+      objectReference: {fileID: 0}
+    - target: {fileID: 114367510176743982, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      propertyPath: movingPlatformEvent.Guid.Data4
+      value: -797658841
       objectReference: {fileID: 0}
     - target: {fileID: 212062337697364760, guid: f9663778c0da693408f8cf4c13bc051a,
         type: 3}
@@ -52319,7 +52636,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300002, guid: 2da3192b993471540944ac96226c9333,
         type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6349959517948613633, guid: f9663778c0da693408f8cf4c13bc051a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4575080517692320, guid: f9663778c0da693408f8cf4c13bc051a,
@@ -52338,8 +52656,61 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 215958518}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1524626685390748, guid: f9663778c0da693408f8cf4c13bc051a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1826158330}
   m_SourcePrefab: {fileID: 100100000, guid: f9663778c0da693408f8cf4c13bc051a, type: 3}
+--- !u!114 &1826158328 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114206927793940296, guid: f9663778c0da693408f8cf4c13bc051a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1826158327}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826158329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff44b8ffcc6c954196bfdcf3eaff9df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1826158329 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1524626685390748, guid: f9663778c0da693408f8cf4c13bc051a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1826158327}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1826158330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826158329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 128310202
+      Data2: 1143107990
+      Data3: 345474964
+      Data4: -797658841
+    Path: event:/SFX/ENVIRONMENT/Interactables/Platform/sfx_env_platform_moving_lp
+  Event: 
+  EventPlayTrigger: 11
+  EventStopTrigger: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!114 &1837104240 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114246191697033218, guid: 7cca00a010a54534493450e42c76b7bb,
@@ -55709,3 +56080,4 @@ SceneRoots:
   - {fileID: 1716219479}
   - {fileID: 832717488}
   - {fileID: 288245562}
+  - {fileID: 1759999332}

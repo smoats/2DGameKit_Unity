@@ -394,6 +394,9 @@ public class MissileGolem : MonoBehaviour
 
     public void ShieldDown()
     {
+        float currentMidRound = round + 0.5f;
+        bossAudio.SetBossRoundParameter(currentMidRound);
+
         shieldDownAudioPlayer.PlayRandomSound();
         damageable.DisableInvulnerability();
         bossAudio.gunnerShieldDeactivateEmitter.Play();

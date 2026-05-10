@@ -24,7 +24,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4964921605943342
 Transform:
   m_ObjectHideFlags: 0
@@ -202,9 +202,9 @@ MonoBehaviour:
   projectilePrefab: {fileID: 114793620227127496, guid: 7a9b8f4adaceb7d469f3f02edc8472d5,
     type: 3}
   viewDirection: 0
-  viewFov: 300
-  viewDistance: 6
-  timeBeforeTargetLost: 2
+  viewFov: 360
+  viewDistance: 4
+  timeBeforeTargetLost: 6
   meleeRange: 3
   meleeDamager: {fileID: 0}
   contactDamager: {fileID: 114516403870706252}

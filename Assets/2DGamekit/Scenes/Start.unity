@@ -235,6 +235,7 @@ GameObject:
   - component: {fileID: 30343062}
   - component: {fileID: 30343067}
   - component: {fileID: 30343066}
+  - component: {fileID: 30343068}
   m_Layer: 5
   m_Name: UIButton
   m_TagString: Untagged
@@ -404,11 +405,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1062766760
-      Data2: 1124332088
-      Data3: 360970887
-      Data4: -1270677258
-    Path: event:/_Utilities/Test Events/test_1kHz_2D_action
+      Data1: 270623915
+      Data2: 1244441993
+      Data3: -1045460593
+      Data4: 308709006
+    Path: event:/UI/ui_OnPointerClick
   Event: 
   EventPlayTrigger: 19
   EventStopTrigger: 0
@@ -435,13 +436,44 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1062766760
-      Data2: 1124332088
-      Data3: 360970887
-      Data4: -1270677258
-    Path: event:/_Utilities/Test Events/test_1kHz_2D_action
+      Data1: -412730527
+      Data2: 1092251262
+      Data3: -524161381
+      Data4: -2144427263
+    Path: event:/UI/ui_OnPointerEnter
   Event: 
-  EventPlayTrigger: 17
+  EventPlayTrigger: 13
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!114 &30343068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30343060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 906144656
+      Data2: 1276368408
+      Data3: -1517757026
+      Data4: -458544804
+    Path: event:/UI/ui_OnPointerExit
+  Event: 
+  EventPlayTrigger: 18
   EventStopTrigger: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -2662,11 +2694,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1062766760
-      Data2: 1124332088
-      Data3: 360970887
-      Data4: -1270677258
-    Path: event:/_Utilities/Test Events/test_1kHz_2D_action
+      Data1: 270623915
+      Data2: 1244441993
+      Data3: -1045460593
+      Data4: 308709006
+    Path: event:/UI/ui_OnPointerClick
   Event: 
   EventPlayTrigger: 19
   EventStopTrigger: 0
@@ -2693,11 +2725,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1062766760
-      Data2: 1124332088
-      Data3: 360970887
-      Data4: -1270677258
-    Path: event:/_Utilities/Test Events/test_1kHz_2D_action
+      Data1: -412730527
+      Data2: 1092251262
+      Data3: -524161381
+      Data4: -2144427263
+    Path: event:/UI/ui_OnPointerEnter
   Event: 
   EventPlayTrigger: 17
   EventStopTrigger: 0
@@ -3440,11 +3472,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1062766760
-      Data2: 1124332088
-      Data3: 360970887
-      Data4: -1270677258
-    Path: event:/_Utilities/Test Events/test_1kHz_2D_action
+      Data1: 270623915
+      Data2: 1244441993
+      Data3: -1045460593
+      Data4: 308709006
+    Path: event:/UI/ui_OnPointerClick
   Event: 
   EventPlayTrigger: 19
   EventStopTrigger: 0
@@ -3471,11 +3503,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1062766760
-      Data2: 1124332088
-      Data3: 360970887
-      Data4: -1270677258
-    Path: event:/_Utilities/Test Events/test_1kHz_2D_action
+      Data1: -412730527
+      Data2: 1092251262
+      Data3: -524161381
+      Data4: -2144427263
+    Path: event:/UI/ui_OnPointerEnter
   Event: 
   EventPlayTrigger: 17
   EventStopTrigger: 0
@@ -9394,11 +9426,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1062766760
-      Data2: 1124332088
-      Data3: 360970887
-      Data4: -1270677258
-    Path: event:/_Utilities/Test Events/test_1kHz_2D_action
+      Data1: 270623915
+      Data2: 1244441993
+      Data3: -1045460593
+      Data4: 308709006
+    Path: event:/UI/ui_OnPointerClick
   Event: 
   EventPlayTrigger: 19
   EventStopTrigger: 0
@@ -9425,11 +9457,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1062766760
-      Data2: 1124332088
-      Data3: 360970887
-      Data4: -1270677258
-    Path: event:/_Utilities/Test Events/test_1kHz_2D_action
+      Data1: -412730527
+      Data2: 1092251262
+      Data3: -524161381
+      Data4: -2144427263
+    Path: event:/UI/ui_OnPointerEnter
   Event: 
   EventPlayTrigger: 17
   EventStopTrigger: 0
@@ -15744,11 +15776,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1062766760
-      Data2: 1124332088
-      Data3: 360970887
-      Data4: -1270677258
-    Path: event:/_Utilities/Test Events/test_1kHz_2D_action
+      Data1: -412730527
+      Data2: 1092251262
+      Data3: -524161381
+      Data4: -2144427263
+    Path: event:/UI/ui_OnPointerEnter
   Event: 
   EventPlayTrigger: 17
   EventStopTrigger: 0
@@ -15775,11 +15807,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1062766760
-      Data2: 1124332088
-      Data3: 360970887
-      Data4: -1270677258
-    Path: event:/_Utilities/Test Events/test_1kHz_2D_action
+      Data1: 270623915
+      Data2: 1244441993
+      Data3: -1045460593
+      Data4: 308709006
+    Path: event:/UI/ui_OnPointerClick
   Event: 
   EventPlayTrigger: 19
   EventStopTrigger: 0
@@ -26770,11 +26802,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1062766760
-      Data2: 1124332088
-      Data3: 360970887
-      Data4: -1270677258
-    Path: event:/_Utilities/Test Events/test_1kHz_2D_action
+      Data1: 270623915
+      Data2: 1244441993
+      Data3: -1045460593
+      Data4: 308709006
+    Path: event:/UI/ui_OnPointerClick
   Event: 
   EventPlayTrigger: 19
   EventStopTrigger: 0
@@ -26801,11 +26833,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1062766760
-      Data2: 1124332088
-      Data3: 360970887
-      Data4: -1270677258
-    Path: event:/_Utilities/Test Events/test_1kHz_2D_action
+      Data1: -412730527
+      Data2: 1092251262
+      Data3: -524161381
+      Data4: -2144427263
+    Path: event:/UI/ui_OnPointerEnter
   Event: 
   EventPlayTrigger: 17
   EventStopTrigger: 0
@@ -27884,11 +27916,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1062766760
-      Data2: 1124332088
-      Data3: 360970887
-      Data4: -1270677258
-    Path: event:/_Utilities/Test Events/test_1kHz_2D_action
+      Data1: 270623915
+      Data2: 1244441993
+      Data3: -1045460593
+      Data4: 308709006
+    Path: event:/UI/ui_OnPointerClick
   Event: 
   EventPlayTrigger: 19
   EventStopTrigger: 0
@@ -27915,11 +27947,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1062766760
-      Data2: 1124332088
-      Data3: 360970887
-      Data4: -1270677258
-    Path: event:/_Utilities/Test Events/test_1kHz_2D_action
+      Data1: -412730527
+      Data2: 1092251262
+      Data3: -524161381
+      Data4: -2144427263
+    Path: event:/UI/ui_OnPointerEnter
   Event: 
   EventPlayTrigger: 17
   EventStopTrigger: 0
@@ -28163,7 +28195,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3901091401450782530, guid: 12c2177bf06bbee44b65f5e185b2216f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -28870,11 +28903,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1062766760
-      Data2: 1124332088
-      Data3: 360970887
-      Data4: -1270677258
-    Path: event:/_Utilities/Test Events/test_1kHz_2D_action
+      Data1: 270623915
+      Data2: 1244441993
+      Data3: -1045460593
+      Data4: 308709006
+    Path: event:/UI/ui_OnPointerClick
   Event: 
   EventPlayTrigger: 19
   EventStopTrigger: 0
@@ -28901,11 +28934,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -1062766760
-      Data2: 1124332088
-      Data3: 360970887
-      Data4: -1270677258
-    Path: event:/_Utilities/Test Events/test_1kHz_2D_action
+      Data1: -412730527
+      Data2: 1092251262
+      Data3: -524161381
+      Data4: -2144427263
+    Path: event:/UI/ui_OnPointerEnter
   Event: 
   EventPlayTrigger: 17
   EventStopTrigger: 0

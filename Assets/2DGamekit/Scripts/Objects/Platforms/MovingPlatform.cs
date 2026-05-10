@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
+using FMOD.Studio;
 
 namespace Gamekit2D
 {
@@ -21,6 +23,11 @@ namespace Gamekit2D
 
         public bool startMovingOnlyWhenVisible;
         public bool isMovingAtStart = true;
+
+        //[Header("FMOD Events")]
+        //[SerializeField]
+        public EventReference movingPlatformEvent;
+        private EventInstance movingPlatformInstance;
 
         [HideInInspector]
         public Vector3[] localNodes = new Vector3[1];
@@ -63,6 +70,9 @@ namespace Gamekit2D
 
         private void Start()
         {
+
+            movingPlatformInstance = RuntimeManager.CreateInstance(movingPlatformEvent);
+
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
             m_Rigidbody2D.isKinematic = true;
 
@@ -107,6 +117,8 @@ namespace Gamekit2D
 
         private void FixedUpdate()
         {
+            movingPlatformInstance.set3DAttributes(RuntimeUtils.To3DAttributes(gameObject));
+
             if (!m_Started)
                 return;
 
@@ -200,11 +212,13 @@ namespace Gamekit2D
 
         public void StartMoving()
         {
+            movingPlatformInstance.start();
             m_Started = true;
         }
 
         public void StopMoving()
         {
+            movingPlatformInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
             m_Started = false;
         }
 
@@ -221,6 +235,11 @@ namespace Gamekit2D
                 m_Started = true;
                 m_VeryFirstStart = false;
             }
+        }
+
+        private void OnDestroy()
+        {
+            movingPlatformInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
         }
     }
 }

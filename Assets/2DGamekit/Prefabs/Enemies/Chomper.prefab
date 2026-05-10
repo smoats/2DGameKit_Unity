@@ -1082,13 +1082,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyAudio: {fileID: 0}
   spriteFaceLeft: 0
-  speed: 1
+  speed: 2
   gravity: 10
   projectilePrefab: {fileID: 0}
   viewDirection: 24.08842
-  viewFov: 54.807255
+  viewFov: 360
   viewDistance: 5
-  timeBeforeTargetLost: 15
+  timeBeforeTargetLost: 6
   meleeRange: 2
   meleeDamager: {fileID: 114303490521682168}
   contactDamager: {fileID: 114896150691463488}

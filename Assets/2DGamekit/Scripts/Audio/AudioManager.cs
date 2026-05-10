@@ -172,6 +172,7 @@ public class AudioManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(numberOfMonstersDetectedBy);
         if (numberOfMonstersDetectedBy > 0)
         {
             detectedByMonster = true;
@@ -186,10 +187,12 @@ public class AudioManager : MonoBehaviour
             if (detectedByMonster)
             {
                 Instance.SetGlobalParameter("ThreatLevel", 1f);
+                Debug.Log("Threat level: " + 1);
             }
             else
             {
                 Instance.SetGlobalParameter("ThreatLevel", 0f);
+                Debug.Log("Threat level: " + 0);
             }
 
             detectedByMonsterOld = detectedByMonster;
