@@ -51,7 +51,7 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-/Assets/2DGameKit/Art/*
+# /Assets/2DGameKit/Art/*
 
 
 # FMOD
